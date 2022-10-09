@@ -4,6 +4,7 @@
   --background-color:#E2EFF1;
   --primary-color:#65799B;
   --secondary-color:#555273;
+  --button:#E23E57;
 }
 
 body {
@@ -40,7 +41,11 @@ body {
 }
 
 .middle-container {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+.middle-container .profile p {
+  width: 50%;
+  margin: auto;
 }
 .middle-container h2 {
   color: var(--secondary-color);
@@ -57,6 +62,7 @@ body {
   border-radius: 50%;
 }
 .middle-container .skills .skill-row {
+  padding: 15px;
   border: solid whitesmoke 2px;
   border-radius: 7%;
   background-color: whitesmoke;
@@ -87,6 +93,7 @@ body {
 }
 
 hr {
+  margin-top: 15px;
   border-style: dotted;
   width: 8%;
   height: 0;
@@ -105,7 +112,7 @@ hr {
 }
 .btn:hover {
   color: white;
-  background-color: #555273;
+  background-color: var(--button);
 }
 
 .bottom-container a {
