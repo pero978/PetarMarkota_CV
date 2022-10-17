@@ -41,13 +41,14 @@ body {
 }
 
 .middle-container {
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 .middle-container .profile {
   border-radius: 1rem;
   margin-right: 20px;
   margin-left: 20px;
-  background-color: #ced7e6;
+  background-color: whitesmoke;
 }
 .middle-container .profile p {
   width: 50%;
